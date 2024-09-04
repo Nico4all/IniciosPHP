@@ -1,6 +1,5 @@
 <?php
-
-class Nomina
+class Empleado
 {
     private $nombre;
     private $horasNormales;
@@ -70,3 +69,4 @@ class Nomina
         return $this->horasExtrasNocturnas;
     }
 }
+?>
