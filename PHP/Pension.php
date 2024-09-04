@@ -30,6 +30,7 @@ $pension->calcularPension();
                 <p><strong>Comisión Administración:</strong> $<?php echo $pension->getComisionAdministracion(); ?></p>
                 <p><strong>Garantía Pensión Mínima:</strong> $<?php echo $pension->getGarantiaPensionMinima(); ?></p>
                 <a class="btn btn-primary" href="../HTML/Pensiones.html" role="button">Calcular Nuevo</a>
+                <a class="btn btn-warning" href="../index.html" role="button" >Home</a>
             </div>
         </div>
     </div>

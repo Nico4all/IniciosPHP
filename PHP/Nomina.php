@@ -32,6 +32,7 @@ $empleado->calcularSueldo();
                 <p><strong>Sueldo Bruto:</strong> $<?php echo $empleado->getSueldoBruto(); ?></p>
                 <p><strong>Sueldo Neto:</strong> $<?php echo $empleado->getSueldoNeto(); ?></p>
                 <a class="btn btn-primary" href="../HTML/Nomina.html" role="button">Calcular Nuevo</a>
+                <a class="btn btn-warning" href="../index.html" role="button" >Home</a>
             </div>
         </div>
     </div>
